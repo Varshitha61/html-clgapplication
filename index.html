@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>College Admission Application</h1>
+     <form action="./respond.html">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="fullname">Full Name:</label>
+            <br>
+            <input type="text" name="fullname" id="fullname">
+            <br><br>
+            <label for="birth">Date Of Birth:</label>
+            <br>
+            <input type="date" name="birth" id="birth">
+            <br><br>
+            <label for="gender">Gender:</label>
+            <br>
+            <input type="radio" name="gender" id="Male">
+            <label for="Male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="Female">
+            <label for="Female">Female</label>
+            <br>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+            <br><br>
+            <label for="emails">Email:</label>
+            <br>
+            <input type="email" name="emails" id="emails" multiple>
+            <br><br>
+            <label for="phone">Phone:</label>
+            <br>
+            <input type="tel" name="phone" id="phone" >
+        </fieldset>
+        <fieldset>
+            <legend>Academic Details</legend>
+            <label for="Academic">Examination Passed:</label>
+            <br>
+            <input type="checkbox" name="Academic" id="Academic">
+            <label for="Academic">10th</label>
+            <br>
+            <input type="checkbox" name="Academic" id="Academic">
+            <label for="Academic">12th</label>
+            <br>
+            <input type="checkbox" name="Academic" id="Academic">
+            <label for="Academic">Diploma</label>
+            <br><br>
+            <label for="grade">12th Grade Marks(%):</label>
+            <br>
+            <input type="number " name="grade" id="grade">
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Course Selection</legend>
+            <label for="stream">Preferred Stream</label>
+            <br>
+            <select name="stream" id="stream">
+                <option value="sci">Science </option>
+                <option value="com">Commerce</option>
+                <option value="art">Arts</option>
+            </select>
+            <br><br>
+            <label for="college">Preferred College</label>
+            <br>
+            <select name="college" id="college">
+                <option value="abc">ABC College</option>
+                <option value="xyz">XYZ College</option>
+                <option value="times">Times college</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Other Details</legend>
+            <label for="join"> Why do you want to join</label>
+            <br>
+            <textarea name="join" id="join" rows="5" cols="70"></textarea>
+            <br><br>
+            <label for="speed">Your Internet Speed(for online learning):</label>
+            <br>
+            <input type="range" name="speed" id="speed" min="0" max="1000">
+            <br><br>
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree"> I have uploaded all  required documents</label>
+            <br>
+             <input type="checkbox" name="agreeall" id="agreeall">
+            <label for="agreeall"> I agree to the terms and conditions</label>
+        </fieldset>
+        <br><center>
+        <button>Sumit Application</button>
+        </center>
+     </form>
+</body>
+</html>
